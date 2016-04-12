@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="outfitInventory">
+  <head>
+    <meta charset="utf-8">
+    <title>Outfit Maker and Inventory</title>
+    <link rel="stylesheet" href="view/styles.css">
+  </head>
+  <body ng-controller="homeCtrl">
+
+<header class="home-header">
+</header>
+
+<section class="home-get-started">
+  <div class="logo">
+    <img src="view/img/Logo.png">
+  </div>
+
+  <div class="home-get-started-button">
+    <a ui-sref="getstarted"><h3>Get Started Now</h3></a>
+  </div>
+
+  <div class="home-learn-more-button">
+    <a ui-sref="learnmore"><h3>Learn More</h3></a>
+  </div>
+</section>
+
+<section class="home-about">
+  <div class="home-about-description">
+    <h2>Loot. Equip. Save. Buy.</h2>
+  </div>
+  <div class="home-get-started-button"
+    <a ui-sref="getstarted"><h3>Get Started Now</h3></a>
+  </div>
+</section>
+
+
+<footer class="home-footer">
+</footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+    <script src="components/outfitInventory.js"></script>
+    <script src="components/home/homeCtrl.js"></script>
+    <script src="components/loginSignup/loginSignupCtrl.js"></script>
+    <script src="components/outfitMaker/outfitMakerCtrl.js"></script>
+  </body>
+</html>

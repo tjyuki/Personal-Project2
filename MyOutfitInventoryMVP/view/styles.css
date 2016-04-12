@@ -1,0 +1,47 @@
+/* Cloth graphic by <a href="http://linhpham.me/miu">Linh Pham</a> and Tool graphic by <a href="http://www.freepik.com/">Freepik</a> from <a href="http://www.flaticon.com/">Flaticon</a> are licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Made with <a href="http://logomakr.com" title="Logo Maker">Logo Maker</a> */
+
+@import url(https://fonts.googleapis.com/css?family=Trochut);
+
+html, body {
+  margin: 0;
+  font-family: 'Trochut', cursive;
+}
+
+.home-header {
+  width: 100%;
+  height: 120px;
+  background-color: #702297;
+}
+
+.home-get-started {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-get-started-button {
+  margin-top: 50px;
+}
+
+
+.home-about {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+
+
+
+.home-footer {
+  height: 120px;
+  background-color: #702297;
+}
