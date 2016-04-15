@@ -1,47 +1,232 @@
 /* Cloth graphic by <a href="http://linhpham.me/miu">Linh Pham</a> and Tool graphic by <a href="http://www.freepik.com/">Freepik</a> from <a href="http://www.flaticon.com/">Flaticon</a> are licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Made with <a href="http://logomakr.com" title="Logo Maker">Logo Maker</a> */
-
+/*Tool graphic by <a href="http://www.freepik.com/">Freepik</a> from <a href="http://www.flaticon.com/">Flaticon</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Made with <a href="http://logomakr.com" title="Logo Maker">Logo Maker</a>*/
 @import url(https://fonts.googleapis.com/css?family=Trochut);
 
 html, body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   font-family: 'Trochut', cursive;
 }
+
+/*HEADER*/
 
 .home-header {
   width: 100%;
   height: 120px;
   background-color: #702297;
+  display: flex;
+  justify-content: space-between;
 }
 
-.home-get-started {
+.home-header img {
+  width: 275px;
+  height: 60px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.header-nav {
+  margin-top: 60px;
+}
+
+.header-nav a {
+  margin-right: 30px;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.home-mid-view {
   width: 100%;
-  height: 500px;
+  height: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+/****************************/
+
+/*HOME*/
+
+.home-intro {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-intro a {
+  text-decoration: none;
+  color: #702297;
+}
+
+.home-get-started {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+.home-get-started img {
+  height: 100%;
+  width: 100%;
 }
 
 .home-get-started-button {
   margin-top: 50px;
 }
 
-
-.home-about {
-  width: 100%;
-  height: 500px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.home-learn-more-button {
+  margin-top: 40px;
 }
 
 
 
+/****************************/
+
+/*ABOUT*/
+
+.about-page {
+  height: 100%;
+  display: flex;
+  justify-content:center;
+}
+
+.about-text {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: rgba(112, 34, 150, 0.27);
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.side-bar{
+  width:50%;
+}
+
+.about-topline {
+  font-size: 40px;
+}
+
+.about-description {
+  font-size: 25px;
+}
+
+.about-get-started-button {
+  font-size: 25px;
+}
+
+.about-get-started-button a {
+  text-decoration: none;
+  color: #702297;
+}
+
+/****************************/
+
+/*LOGIN*/
+
+.login-main {
+  display:flex;
+  justify-content: center;
+}
+
+.login {
+  background-color: rgba(112, 34, 150, 0.27);
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.login h1 {
+  font-size: 30px;
+}
+
+.login-input-box {
+  margin-top: 15px;
+}
+
+/****************************/
+
+/*DEMO*/
+
+.demo-main {
+  height:100%;
+  width: 100%;
+  margin: 0;
+  display:flex;
+  justify-content: space-around;;
+}
+
+.demo-inventory {
+  height: 100%;
+  width: 80%;
+  background-color: rgba(112, 34, 150, 0.27);
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.slider {
+  border: 2px solid black;
+  border-radius: 30px;
+  height: 100%;
+  width: 20%;
+  display: inline-block;
+}
+
+.arrows img {
+  width: 50px;
+  height: 50px;
+  background-color: darkgray;
+}
+
+.slider-shirts img {
+  width: 80px;
+  height: 80px;
+}
 
 
+/****************************/
+
+/*SIGNUP*/
+
+.signup-main {
+  display:flex;
+  justify-content: center;
+}
+
+.signup {
+  background-color: rgba(112, 34, 150, 0.27);
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.signup h1 {
+  font-size: 30px;
+}
+
+.signup-input-box {
+  margin-top: 15px;
+}
+
+
+/****************************/
+
+/*FOOTER*/
 
 .home-footer {
   height: 120px;
   background-color: #702297;
+  display:flex;
+  justify-content: space-around;
+  position:relative;
+  margin-bottom: 0;
+}
+
+.home-footer a {
+  font-size: 16px;
+  color: white;
+  margin-top: 10px;
 }

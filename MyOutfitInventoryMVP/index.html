@@ -3,46 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title>Outfit Maker and Inventory</title>
+
     <link rel="stylesheet" href="view/styles.css">
+    <link rel="icon" href="view/img/WebsiteIcon.png">
   </head>
-  <body ng-controller="homeCtrl">
+  <body>
 
-<header class="home-header">
-</header>
-
-<section class="home-get-started">
-  <div class="logo">
-    <img src="view/img/Logo.png">
-  </div>
-
-  <div class="home-get-started-button">
-    <a ui-sref="getstarted"><h3>Get Started Now</h3></a>
-  </div>
-
-  <div class="home-learn-more-button">
-    <a ui-sref="learnmore"><h3>Learn More</h3></a>
-  </div>
-</section>
-
-<section class="home-about">
-  <div class="home-about-description">
-    <h2>Loot. Equip. Save. Buy.</h2>
-  </div>
-  <div class="home-get-started-button"
-    <a ui-sref="getstarted"><h3>Get Started Now</h3></a>
-  </div>
-</section>
+    <div class="header" ng-controller="homeCtrl">
+      <header-directive></header-directive>
+    </div>
 
 
-<footer class="home-footer">
-</footer>
+    <section class="home-mid-view">
+      <div ui-view></div>
+    </section>
 
+    
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+    <footer-directive></footer-directive>
+
+<!-- Firebase -->
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+<!-- JQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.min.js"></script>
+<!-- Angular UI Routers -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+
+<!-- Local -->
     <script src="components/outfitInventory.js"></script>
+    <script src="directives/headerDirective.js"></script>
+    <script src="directives/footerDirective.js"></script>
+    <script src="directives/sliderDirective.js"></script>
+    <script src="directives/outfitMakerDirective.js"></script>
     <script src="components/home/homeCtrl.js"></script>
-    <script src="components/loginSignup/loginSignupCtrl.js"></script>
+    <script src="components/signup/signupCtrl.js"></script>
+    <script src="components/login/loginCtrl.js"></script>
     <script src="components/outfitMaker/outfitMakerCtrl.js"></script>
+    <script src="components/demo/demoCtrl.js"></script>
+    <script src="components/outfitMaker/outfitMakerService.js"></script>
+    <script src="components/home/homeService.js"></script>
+
   </body>
 </html>
