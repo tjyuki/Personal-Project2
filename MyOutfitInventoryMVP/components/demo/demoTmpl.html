@@ -1,23 +1,21 @@
+<h1>Your Inventory</h1>
 <section class="demo-main">
+
   <div class="demo-inventory">
 
-    <h1>Your Inventory</h1>
+    <div class="left-side-categories">
+      <shirt-slider-directive></shirt-slider-directive>
+      <pants-slider-directive></pants-slider-directive>
+    </div>
 
-    <div class="slider">
-      <slider-directive></slider-directive>
-      <!-- <div class="slider-shirts" ng-repeat="shirt in shirts" ng-show="shirt.visible">
-        <img src="{{shirt.source}}" />
-      </div> -->
+    <!-- <div class="outfit-display">
 
-      <!-- <div class="arrows">
-        <a href="#" ng-click="goToPrevious()">
-          <img src="../../view/img/Arrowprev.png" />
-        </a>
+    </div> -->
 
-        <a href="#" ng-click="goToNext()">
-          <img src="../../view/img/Arrownext.png" />
-      </div> -->
-
+    <div class="right-side-categories">
+      <headwear-slider-directive></headwear-slider-directive>
+      <shoe-slider-directive></shoe-slider-directive>
+    </div>
 
   </div>
 </section>
