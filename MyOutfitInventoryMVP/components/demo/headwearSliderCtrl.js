@@ -2,10 +2,14 @@ angular.module("outfitInventory")
   .controller("headwearSliderCtrl", function($scope){
 
     $scope.headwear = [
-      { source: "../../view/img/sunglasses.jpg",
-        title: "Super Villain Sunglasses" },
-      { source: "../../view/img/sunglasses2.jpg",
-        title: "Sunglasses" }
+        { source: "http://s20.postimg.org/4tn6un74t/sunglasses.jpg",
+            title: "Super Villain Sunglasses" },
+        
+        { source: "http://s20.postimg.org/xluexhvq5/hat.jpg",
+            title: "Just a Brown Cap" },
+        
+        { source: "http://s20.postimg.org/45esv2pct/headphones.jpg",
+            title: "Red Steelseries Headset" }
     ];
 
     $scope.currentIndex = 0;

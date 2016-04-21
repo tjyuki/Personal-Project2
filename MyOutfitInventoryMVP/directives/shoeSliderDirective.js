@@ -13,7 +13,7 @@ angular.module("outfitInventory")
 
                   <div class="arrows">
                     <a href="#" ng-click="goToPrevious()">
-                      <img src="../../view/img/Arrowprev.png" />
+                      <img src="http://s20.postimg.org/l9w3xqx99/Arrowprev.png" />
                     </a>
                   </div>
 
@@ -23,7 +23,7 @@ angular.module("outfitInventory")
 
                   <div class="arrows">
                     <a href="#" ng-click="goToNext()">
-                      <img src="../../view/img/Arrownext.png" />
+                      <img src="http://s20.postimg.org/5a8v0gbtp/Arrownext.png" />
                   </div>
 
                   </div>

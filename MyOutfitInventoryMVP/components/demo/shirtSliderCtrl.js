@@ -2,28 +2,28 @@ angular.module("outfitInventory")
   .controller("shirtSliderCtrl", function($scope){
 
     $scope.shirts = [
-      { source: "../../view/img/adv-time.jpg",
+      { source: "http://s20.postimg.org/6ayzvcg65/adv_time.jpg",
         title: "Steam Punk Adventure Time Tee" },
 
-      { source: "../../view/img/alien.jpg",
+      { source: "http://s20.postimg.org/60rhc01jx/alien.jpg",
         title: "Alien Invasion Black Women's Tee" },
 
-      { source: "../../view/img/fallout.jpg",
+      { source: "http://s20.postimg.org/mfq02b8wt/fallout.jpg",
         title: "Blue Fallout4 Tee" },
 
-      { source: "../../view/img/gotg.jpg",
+      { source: "http://s20.postimg.org/w2tic11wd/gotg.jpg",
         title: "Guardians of the Galaxy Tee" },
 
-      { source: "../../view/img/forest-spirit.jpg",
+      { source: "http://s20.postimg.org/yvmpw228t/forest_spirit.jpg",
         title: "Purple Princess Mononoke Forest Spirit Tee" },
 
-      { source: "../../view/img/pixel-xmas.jpg",
+      { source: "http://s20.postimg.org/dv1q89525/pixel_xmas.jpg",
         title: "Pixel Christmas Women's Tee" },
 
-      { source: "../../view/img/dress-shirt.jpg",
+      { source: "http://s20.postimg.org/djf7ydial/dress_shirt.jpg",
         title: "Men's Light Blue Dress Shirt" },
 
-        { source: "../../view/img/totoro-sweatshirt.jpg",
+        { source: "http://s20.postimg.org/7p0a1ib4t/totoro_sweatshirt.jpg",
           title: "Women's Totoro Sweatshirt" }
     ];
 

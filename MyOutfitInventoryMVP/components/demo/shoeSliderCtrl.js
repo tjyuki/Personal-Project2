@@ -2,19 +2,19 @@ angular.module("outfitInventory")
   .controller("shoeSliderCtrl", function($scope){
 
     $scope.shoes = [
-      { source: "../../view/img/black-boots.jpg",
+      { source: "http://s20.postimg.org/wyzn2c7a5/black_boots.jpg",
         title: "Women's Black Leather Boots" },
 
-      { source: "../../view/img/brown-dress-shoes.jpg",
+      { source: "http://s20.postimg.org/lxq98pty5/brown_dress_shoes.jpg",
         title: "Men's Brown Dress Shoes" },
 
-      { source: "../../view/img/loafers.jpg",
+      { source: "http://s20.postimg.org/f7edd0w65/loafers.jpg",
         title: "Men's Comfy Slip-on Loafers" },
 
-      { source: "../../view/img/cowboy-boots.jpg",
+      { source: "http://s20.postimg.org/lavxwxmfx/cowboy_boots.jpg",
         title: "Women's Cowboy Boots" },
 
-      { source: "../../view/img/skechers-shoes.jpg",
+      { source: "http://s20.postimg.org/kbaoycdlp/skechers_shoes.jpg",
         title: "Women's Purple and Silver Skecher Sneakers" }
     ];
 

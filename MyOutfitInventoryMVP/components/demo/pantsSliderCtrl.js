@@ -2,22 +2,19 @@ angular.module("outfitInventory")
   .controller("pantsSliderCtrl", function($scope){
 
     $scope.pants = [
-      { source: "../../view/img/brown-cordoroys.jpg",
+      { source: "http://s20.postimg.org/iaf3geb4t/brown_cordoroys.jpg",
         title: "Men's Brown Cordoroys"},
 
-      { source: "../../view/img/buffalo.jpg",
+      { source: "http://s20.postimg.org/f8td3k4bh/buffalo.jpg",
         title: "Women's Buffalo Pajama Pants" },
 
-      { source: "../../view/img/kitty-xmas.jpg",
+      { source: "http://s20.postimg.org/i2rgjw065/kitty_xmas.jpg",
         title: "Women's Holiday Kitten Leggings" },
 
-      { source: "../../view/img/buffalo.jpg",
-        title: "Women's Buffalo Pajama Pants" },
-
-      { source: "../../view/img/pink-leopard.jpg",
+      { source: "http://s20.postimg.org/gqetf4925/pink_leopard.jpg",
         title: "Women's Pink Leopard Print Pajama Pants" },
 
-      { source: "../../view/img/skinny-jeans.jpg",
+      { source: "http://s20.postimg.org/3v6tsctst/skinny_jeans.jpg",
         title: "Women's Skinny Jeans" }
     ];
 
